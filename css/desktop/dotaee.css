@@ -1,0 +1,21 @@
+.dotaee{
+    width: 100%;
+    height: 265px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 50px;
+}
+.aksavali img {
+    width: 660px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.aksdovomi img {
+    width: 660px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 14px;
+}

@@ -1,0 +1,51 @@
+.hh h2{
+    font-family: IRAN;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.pishnahad__1{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.pishnahad__2{
+    width: 90%;
+    height: inherit;
+    border-radius: 14px;
+    border: 2px solid #e0e0e2;
+    background-color: #e0e0e2;
+}
+.wow-slide{
+    border: 1px solid #e0e0e2;
+    display: flex;
+    flex-flow: column wrap;
+}
+.wow-slide .dy img{
+    width: 60px;
+    height: 60px;
+    outline: none;
+    border-radius: 0%;
+}
+.wow-slide h4{
+    font-family: IRAN;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.mypishnahad{
+    border-radius: 14px;
+}
+.wow-slide .dy {
+    width: 84px;
+    height: 84px;
+    background-color:#f0f0f1;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}

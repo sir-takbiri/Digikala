@@ -1,0 +1,53 @@
+.barasas{
+    width: 80%;
+    height: 400px;
+}
+.headerfile h2{
+    text-align: center;
+    margin-top: 35px;
+    font-family: IRAN;
+    font-size: 20px;
+   text-decoration: 0.6;
+}
+.tasvir{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    column-gap: 55px;
+    margin-top: 30px;
+}
+.tasvir img{
+    width:100px ;
+    height: 100px;
+}
+.tasvir div{
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+}
+.tasvir h3{
+    font-family: IRAN;
+    font-size: 11px;
+
+}
+.tasvir__2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    margin-top: 70px;
+    column-gap: 80px;
+}
+.tasvir__2 img {
+    width: 100px;
+    height: 100px;
+}
+.tasvir__2 div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.tasvir__2 h3 {
+    font-family: IRAN;
+    font-size: 11px;
+
+}

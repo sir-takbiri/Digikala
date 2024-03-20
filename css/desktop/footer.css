@@ -1,0 +1,450 @@
+.ffff {
+    width: 100%;
+    height: 500px;
+    border-top: 2px solid #D0D0D0;
+    margin-top: 15px;
+}
+
+.footer__top {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.footer__top__center {
+    width: 98%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.bazgasht {
+    width: 138px;
+    height: inherit;
+    border: 2px solid #D0D0D0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+}
+
+.bazgasht h4 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: IRAN;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.shomare {
+    width: 100%;
+    height: 27px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.shomare p {
+    font-family: BNAZANIN;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.do {
+    margin-right: 15px;
+}
+
+.se {
+    margin-right: 15px;
+}
+
+.ssv {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.ssv__one {
+    width: 291px;
+    height: 103px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssv__one h4 {
+    font-family: IRAN;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.men__1 {
+    width: 370px;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 15px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.men__1 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: IRAN;
+}
+
+.men__1 a {
+    text-decoration: none;
+    color: black;
+    font-family: IRAN;
+    font-size: 14px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+.men {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.men__2 {
+    width: 322px;
+    height: 270px;
+    margin-top: 40px;
+}
+
+.men__2 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: IRAN;
+}
+
+.svvg {
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+}
+
+.men__2 .ssvv {
+    width: 100%;
+    height: 40px;
+}
+
+.men__2 .sbtgmali .sbt {
+    font-weight: bold;
+    font-family: IRAN;
+    font-size: 14px;
+}
+
+.men__2 .iinn {
+    width: 100%;
+    height: 48px;
+    margin-top: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.men__2 .iinn input[type=text_2] {
+    width: 80%;
+    height: inherit;
+    outline: none;
+    background-color: #F0F0F1;
+    border: none;
+    border-radius: 7px;
+}
+
+.men__2 .iinn input[type=text_2]::placeholder {
+    font-family: IRAN;
+    font-size: 13px;
+    opacity: 0.6;
+    padding-right: 20px;
+}
+
+.sabt {
+    width: 48px;
+    height: 48px;
+    background-color: #c0c2c5;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.sabt h3 {
+    color: whitesmoke;
+}
+
+.abi__p {
+    width: 100%;
+    height: 77px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.abi__p .abi__p__center {
+    width: 98%;
+    height: inherit;
+    background-color: #3c4b6d;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.abi__p .abi__p__center .righet__pp {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.abi__p .abi__p__center .righet__pp img {
+    width: 44px;
+    height: 44px;
+    margin-right: 30px;
+}
+
+.abi__p .abi__p__center .righet__pp h3 {
+    font-family: IRAN;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.left__pp {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-items: center;
+}
+
+.koocholo__1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 640px;
+    margin-top: 5px;
+}
+
+.koocholo__2 {
+    width: 135px;
+    height: 40px;
+    background-color: white;
+    margin-right: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.koocholo__2 IMG {
+    width: inherit;
+    height: inherit;
+}
+
+.koocholo__1__1 {
+    margin-right: 15px;
+    width: 149px;
+    height: 42px;
+}
+
+.spann {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.neveshtafzar {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.neveshtafzar .neveshtafzar__center {
+    width: 98%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.neveshtafzar__center .neveshtafzar__p__righet {
+    width: 65%;
+    height: inherit;
+}
+
+.neveshtafzar__center .neveshtafzar__p__left {
+    width: 35%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.neveshtafzar__center .neveshtafzar__p__righet h2 {
+    font-family: IRAN;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.neveshtafzar__center .neveshtafzar__p__righet p {
+    font-family: IRAN;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.neveshtafzar__center .neveshtafzar__p__righet .p__1 {
+    font-family: IRAN;
+    font-size: 12px;
+    opacity: 0.2;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.neveshtafzar__center .neveshtafzar__p__righet a {
+    text-decoration: none;
+    font-family: IRAN;
+    color: #007aff;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.neveshtafzar__center .neveshtafzar__p__left .barchasb {
+    width: 108px;
+    height: 108px;
+    background-color: white;
+    border: 1px solid #D0D0D0;
+    border-radius: 7px;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.neveshtafzar__center .neveshtafzar__p__left .barchasb__1 {
+    width: 108px;
+    height: 108px;
+    background-color: white;
+    border: 1px solid #D0D0D0;
+    border-radius: 7px;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+
+}
+
+.neveshtafzar__center .neveshtafzar__p__left .barchasb__1 img {
+    width: 75px;
+    height: 75px;
+}
+
+.neveshtafzar__center .neveshtafzar__p__left .barchasb img {
+    width: 75px;
+    height: 75px;
+}
+
+.heght90 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.heght90 {
+    font-family: IRAN;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.tamam {
+    width: 100%;
+    height: 160px;
+}
+
+.tamam .tamam__top {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #D0D0D0;
+    display: flex;
+    background-color: #F0F0F1;
+}
+
+.tamam .tamam__bootem {
+    width: 100%;
+    height: 80px;
+    background-color: #F0F0F1;
+}
+
+.tamam .tamam__top .tamam__svg {
+    width: 191px;
+    height: inherit;
+    border-left: 1px solid #D0D0D0;
+    display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   justify-content: center;
+}
+.tamam__bootem{
+    display: flex;
+}
+.tamam__bootem .tamam__svg__bot{
+    width: 218px;
+    height: inherit;
+    border-left:1px solid #D0D0D0; ;
+}
+.tamam__svg__bot{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}

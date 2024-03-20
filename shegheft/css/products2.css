@@ -1,0 +1,133 @@
+.products__fother{
+    width: 100%;
+    height:110px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center ;
+}
+.products {
+    width: 97%;
+    height: 110px;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #EDEFED;
+
+}
+
+.righet_1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.righet_1 img {
+    width: 60px;
+    height: 62px;
+}
+
+.ssv {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.sabzali {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #39ae00;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 20px;
+    height: 30px;
+    width: 90px;
+    margin-top: 40px;
+}
+
+.sabzali h2 {
+    font-size: 14px;
+    color: whitesmoke;
+    font-family: BNAZANIN;
+
+}
+
+.aks_1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.aks {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 270px;
+
+}
+
+.aks img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.aks span {
+    font-family: BNAZANIN;
+    font-size: 15px;
+    color: white;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 40px;
+    position: relative;
+    right: 25px;
+}
+
+.balasar_1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.tagea {
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+.tagea a {
+    text-decoration: none;
+    font-family: IRAN;
+    color: green;
+    font-size: 13px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.tagea span svg {
+    margin-right: 10px;
+
+}

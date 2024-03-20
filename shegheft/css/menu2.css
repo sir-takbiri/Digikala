@@ -1,0 +1,51 @@
+.menu__paeen {
+    width: 81%;
+    height: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.menu__paeen__right {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__paeen__right a {
+    font-family: IRAN;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.iii {
+    opacity: 0.6;
+}
+
+.iiii {
+    color: crimson !important;
+    opacity: 0.6;
+}
+
+.menu__paeen__left {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    & a {
+        font-family: IRAN;
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        margin-right: 10px;
+        margin-right: 330px;
+        opacity: 0.6;
+    }
+}

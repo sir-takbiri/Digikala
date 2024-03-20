@@ -1,0 +1,360 @@
+header {
+    width: 100%;
+    height: 170px;
+    box-shadow: 0 1px 5px #D0D0D0;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+
+header .top {
+    width: 100%;
+    height: 60px;
+}
+
+header .top img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+header .center {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+
+
+}
+
+.vooroodd a {
+    text-decoration: none;
+}
+
+header .center .logo {
+    width: 10%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .center .search {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+header .center .search input[type=text] {
+    width: 600px;
+    height: 40px;
+    background-color: #F0F0F1;
+    border: none;
+    border-radius: 7px;
+    padding-right: 40px;
+    outline: none;
+
+}
+
+.search span {
+    position: relative;
+    right: 30px;
+}
+
+header .center .search input[type=text]::placeholder {
+    font-family: IRAN;
+    font-size: 13px;
+}
+
+header .center .login {
+    width: 20%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-left: 30px;
+    align-items: center;
+    column-gap: 15px;
+}
+
+header .center .login .register {
+    width: 140px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: IRAN;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #e0e0e2;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+header .center .login .line {
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background-color: lightgrey;
+}
+
+header .bottom {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header .bottom .right {
+    width: 70%;
+    height: inherit;
+}
+
+header .bottom .right nav {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 25px;
+    column-gap: 20px;
+}
+
+
+
+
+header .bottom .right nav div {
+    height: inherit;
+    width: fit-content;
+}
+
+header .bottom .right nav div a {
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: IRAN;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    column-gap: 5px;
+    transition: 200ms;
+}
+
+header .bottom .right nav div a:hover {
+    border-bottom: 3px solid crimson;
+}
+
+header .bottom .right nav div .active {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header .bottom .right nav div a span svg {
+    width: 22px !important;
+    height: 22px !important;
+}
+
+header .bottom .left {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 35px;
+    align-items: center;
+    font-family: IRAN;
+    font-size: 13px;
+
+}
+
+header .bottom .left p {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+header .bottom .left p span svg {
+    width: 20px !important;
+    height: 24px !important;
+}
+
+.vooroodd {
+    width: 135px;
+    height: 40px;
+    border: 1px solid#E0E0E2;
+    border-radius: 7px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.rigester {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.vooroodd .rigester h4 {
+    font-family: IRAN;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.bottom .right .active span {
+    margin-right: 20px;
+}
+
+.sub__menu {
+
+    width: 0 !important;
+    height: 0 !important;
+    background-color: #F0F0F0;
+    position: absolute;
+    z-index: 10;
+    transition: 500ms;
+
+    .sub__menu__category {
+        width: 20% !important;
+        height: inherit;
+        background-color: whitesmoke;
+        overflow: auto;
+        direction: ltr;
+    }
+
+    .sub__menu__category__item {
+        width: 100% !important;
+        height: 70px !important;
+        display: flex !important;
+        flex-flow: row wrap !important;
+        align-items: center !important;
+        background-color: #F0F0F0;
+        transition: 300ms;
+        direction: rtl;
+
+        &:hover .sub__sub__menu {
+            display: flex;
+        }
+
+    }
+
+
+    .sub__sub__menu {
+        width: 80% !important;
+        height: 100% !important;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+    }
+
+
+
+    & p {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        column-gap: 5px;
+        margin-right: 10px;
+
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 10px !important;
+        background-color: #E0E0E2;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: inherit;
+        height: 5pxpx;
+        background-color: gray;
+        border-radius: 5px;
+    }
+
+}
+
+
+& p {
+    font-family: IRAN;
+    font-size: 12px;
+}
+
+:hover.sub__menu__category__item {
+    background-color: whitesmoke;
+
+}
+
+:hover.sub__menu__category__item p {
+    color: crimson;
+}
+
+.sub__sub__menu .sub__sub__menu__up {
+    width: 100% !important;
+    height: 10% !important;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    align-items: center;
+    position: absolute;
+
+
+    & h5 {
+        font-family: IRAN;
+        font-size: 12px !important;
+        color: #007aff;
+        margin-right: 40px;
+        margin-top: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    & span {
+        margin-right: 10px;
+    }
+
+
+}
+
+.sub__sub__menu__botoom {
+    width: 3000px !important;
+    height: 85% !important;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 30px;
+    margin-top: 80px;
+    margin-left: 85px;
+    margin-left: -40px;
+
+    & h3 {
+        font-family: IRAN;
+
+    }
+
+    & span {
+        color: crimson;
+    }
+
+    & h6 {
+        font-family: IRAN;
+        font-size: 10px;
+        opacity: 0.5;
+    }
+}
+
+
+
+header .bottom .right nav .rerere {
+    &:hover .sub__menu {
+        height: calc(100vh - 170px) !important;
+        width: 65% !important;
+    }
+
+}

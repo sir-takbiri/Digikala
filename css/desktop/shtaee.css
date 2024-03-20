@@ -1,0 +1,212 @@
+.shtaee {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.shtaee .shtaee__center {
+    width: 90%;
+    height: inherit;
+    border: 3px solid #e0e0e2;
+    border-radius: 14px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #e0e0e2;
+    
+}
+
+
+.righet__1 {
+    width: 342px;
+    height: inherit;
+    border: 3px solid #e0e0e2;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-right: 3px solid #e0e0e2;
+    background-color: white;
+}
+
+.righet__2 {
+    width: 340px;
+    height: inherit;
+    border: 3px solid #e0e0e2;
+    border-top-right-radius: 14px;
+    border-top-right-radius: 0%;
+    background-color: white;
+}
+
+.righet__2 .hh3 {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.righet__2 .hh5 {
+    margin-right: 15px;
+    margin-top: 11px;
+}
+
+.righet__3 {
+    width: 340px;
+    height: inherit;
+    border: 3px solid #e0e0e2;
+    border-top-right-radius: 14px;
+    border-top-right-radius: 0%;
+    background-color: white;
+}
+
+.righet__3 .hh3 {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.righet__3 .hh5 {
+    margin-right: 15px;
+    margin-top: 11px;
+}
+
+.righet__4 {
+    width: 340px;
+    height: inherit;
+    border: 3px solid #e0e0e2;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border-left: 2px solid #e0e0e2;
+    background-color: white;
+}
+
+.righet__4 .hh3 {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.righet__1 .hh3 {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.righet__4 .hh5 {
+    margin-right: 15px;
+    margin-top: 11px;
+}
+
+.righet__1 .hh3 h3 {
+    font-family: IRAN;
+    font-size: 15px;
+}
+
+.righet__2 .hh3 h3 {
+    font-family: IRAN;
+    font-size: 15px;
+}
+
+.righet__3 .hh3 h3 {
+    font-family: IRAN;
+    font-size: 15px;
+}
+
+.righet__4 .hh3 h3 {
+    font-family: IRAN;
+    font-size: 15px;
+}
+
+.righet__1 .hh5 {
+    margin-right: 15px;
+    margin-top: 11px;
+}
+
+.righet__1 .hh5 h5 {
+    font-family: IRAN;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.righet__2 .hh5 h5 {
+    font-family: IRAN;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.righet__3 .hh5 h5 {
+    font-family: IRAN;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.righet__4 .hh5 h5 {
+    font-family: IRAN;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.pictor_1 {
+    display: inline-block;
+}
+
+.pictor_1 img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.pictor_2 {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.pictor_2 img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.pictor_3 {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.pictor_3 img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+    margin-right: -20px;
+}
+
+.pictor_4 {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.pictor_4 img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+    margin-right: -15px;
+
+}
+
+.moshahede {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.moshahede a {
+    text-decoration: none;
+    font-family: IRAN;
+    color: #007aff;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+.moshahede a svg{
+   margin-bottom: 6px;
+   margin-right: 8px;
+}

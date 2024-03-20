@@ -1,0 +1,124 @@
+.hard{
+    width: 100%;
+  height: 440px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.hard .hard__center{
+    width: 90%;
+    height: inherit;
+    border-radius: 14px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.hard .hard__center h3{
+    font-family: IRAN;
+    text-align: center;
+    margin-top: 10px;
+}
+.hard__center h3{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.hard .hard__center h3 span{
+ margin-top: 10px;
+}
+.swiper-slide .hard__item__top,.swiper-slide .hard__item__center,.swiper-slide .hard__item__botoom {
+    all:unset ;
+    box-sizing: border-box;
+}
+.hard__item{
+    flex-flow: column wrap;
+}
+.swiper-slide .hard__item__top{
+    display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   column-gap: 10px;
+   margin-top: 10px;
+}
+.swiper-slide .hard__item__top img{
+    all: unset;
+    width: 84px;
+    height: 84px;
+}
+.swiper-slide .hard__item__top h5{
+    all: unset;
+    font-size: 10px;
+    font-family: IRAN;
+   text-align: right;
+   margin-right: 5px;
+}
+.swiper-slide .hard__item__top span{
+    font-family: BNAZANIN;
+    color: aqua;
+    font-size: 50px;
+}
+
+
+
+
+.swiper-slide .hard__item__center {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+
+.swiper-slide .hard__item__center img {
+    all: unset;
+    width: 84px;
+    height: 84px;
+}
+
+.swiper-slide .hard__item__center h5 {
+    all: unset;
+    font-size: 10px;
+    font-family: IRAN;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.swiper-slide .hard__item__center span {
+    font-family: BNAZANIN;
+    color: aqua;
+    font-size: 50px;
+}
+
+
+
+
+
+
+.swiper-slide .hard__item__botoom {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+
+.swiper-slide .hard__item__botoom img {
+    all: unset;
+    width: 84px;
+    height: 84px;
+}
+
+.swiper-slide .hard__item__botoom h5 {
+    all: unset;
+    font-size: 10px;
+    font-family: IRAN;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.swiper-slide .hard__item__botoom span {
+    font-family: BNAZANIN;
+    color: aqua;
+    font-size: 50px;
+}
